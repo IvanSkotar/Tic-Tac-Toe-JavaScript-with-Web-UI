@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-size: 16pt;
+    background-image: url(img/superthumb.png);
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-size: 330px 312px;
+}
+
+.game {
+    margin: 32px auto;
+}
+
+table#tblTest {
+    border-style: solid;
+    margin: 6px auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    padding: 2px;
+}
+
+td:hover {
+    background: radial-gradient(circle, #e2e5e9, #a4a7ab);
+}
+
+button {
+    margin: auto;
+    background: radial-gradient(circle, #e2e5e9, #a4a7ab);
+    height: 25px
+}
+
+button:hover {
+    margin: auto;
+    background: radial-gradient(circle, #e2e5e9, #ab2d7f);
+}
+
+#result {
+    height: 25px;
+    font-family: monospace;
+}

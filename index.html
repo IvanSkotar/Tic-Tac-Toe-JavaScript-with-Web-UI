@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="application/javascript" src="sound.js"></script>
+</head>
+<body>
+<div id="result"></div>
+<div class="game">
+    <button onclick="clearBoard()">New Game</button>
+<table id="tblTest">
+    <tr>
+        <td id="1" onclick="playGame(0, 0)"></td>
+        <td id="2" onclick="playGame(0, 1)"></td>
+        <td id="3" onclick="playGame(0, 2)"></td>
+    </tr>
+    <tr>
+        <td id="4" onclick="playGame(1, 0)"></td>
+        <td id="5" onclick="playGame(1, 1)"></td>
+        <td id="6" onclick="playGame(1, 2)"></td>
+    </tr>
+    <tr>
+        <td id="7" onclick="playGame(2, 0)"></td>
+        <td id="8" onclick="playGame(2, 1)"></td>
+        <td id="9" onclick="playGame(2, 2)"></td>
+    </tr>
+</table>
+</div>
+<script type="application/javascript" src="tictactoe.js"></script>
+</body>
+</html>
